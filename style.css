@@ -1,0 +1,74 @@
+h2.S{
+    position: relative;
+    top: 20px;
+    right: -20px;
+}
+
+h1.nombre{
+    text-align: center;
+    color: blue;
+}
+
+a.vida:hover{
+    background-color: yellow;
+    color: red;
+}
+
+a.productos:hover{
+    background-color: yellow;
+    color: red;
+}
+
+a.empresas:hover{
+    background-color: yellow;
+    color: red;
+}
+
+nav.enlaces{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+}
+
+span.linea1{
+    color: red;
+}
+
+span.linea2{
+    color: red;
+}
+
+a.webs:link{
+    background-color: white;
+    color: blue;
+}
+
+a.webs:visited{
+    background-color: blue;
+    color: white;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+p.empieza{
+    counter-reset: cuenta-productos;
+}
+
+p.productos::before{
+    content: counter(cuenta-productos) ".";
+    counter-increment: cuenta-productos 1;
+}
+
+img.foto{
+    position: relative;
+    top: 0px;
+    float: right;
+}
+
+span.letra{
+    font-size: 95px;
+    color: black;
+}
+
